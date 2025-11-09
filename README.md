@@ -1,19 +1,20 @@
-cd ~/Desktop/ai-assistant
-cat > README.md <<'MD'
 # 🤖 Custom AI Agent with Memory
 
-A custom AI assistant built using **Streamlit**, **OpenAI GPT models**, and **ChromaDB**  
-that remembers past interactions and provides smarter, context-aware responses.
+A smart AI assistant that can run using **OpenAI GPT models** or **local Llama 3 (Ollama)**,  
+with long-term memory powered by **ChromaDB** and an intuitive **Streamlit** chat interface.  
+
+This assistant remembers past conversations and provides context-aware responses —  
+whether running fully offline via Ollama or connected to OpenAI’s API.
 
 ---
 
 ## 🚀 Features
 
-✅ Interactive text & voice chat (via Whisper)  
-✅ Persistent long-term memory using ChromaDB  
-✅ Streamlit-powered chat interface  
-✅ Easy to customize and extend with APIs  
-✅ Works locally or deploys to Streamlit Cloud
+✅ Works with **OpenAI GPT** or **local Llama 3 (Ollama)**  
+✅ Persistent long-term memory via **ChromaDB**  
+✅ Simple and interactive **Streamlit** chat interface  
+✅ Optional **voice input and transcription** with Whisper  
+✅ Runs **locally (offline)** or in the **cloud**
 
 ---
 
@@ -23,33 +24,3 @@ that remembers past interactions and provides smarter, context-aware responses.
 ```bash
 git clone https://github.com/<your-username>/Custom-AI-Agent-with-Memory.git
 cd Custom-AI-Agent-with-Memory
-
-python3 -m venv venv
-source venv/bin/activate
-
-
-
-
-A custom AI assistant built using **Streamlit**, **OpenAI GPT models**, and **ChromaDB**
-that remembers past interactions and provides smarter, context-aware responses.
-
----
-
-## 🚀 Features
-
-✅ Interactive text & voice chat (via Whisper)  
-✅ Persistent long-term memory using ChromaDB  
-✅ Streamlit-powered chat interface  
-✅ Easy to customize and extend with APIs  
-✅ Works locally or deploys to Streamlit Cloud  
-
----
-
-## ⚙️ Setup Instructions
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/<VamsiVkvn>/Custom-AI-Agent-with-Memory.git
-cd Custom-AI-Agent-with-Memory
-
-	MD
