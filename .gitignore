@@ -1,14 +1,10 @@
-# Python cache and environment
 __pycache__/
 *.pyc
 venv/
 
-# Secrets
 .env
 
-# macOS system files
 .DS_Store
 
-# Temporary or generated files
 temp_*.wav
 *.log
