@@ -1,20 +1,14 @@
-# Python
+# Python cache and environment
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-env/
 venv/
-.Python
-pip-log.txt
-pip-delete-this-directory.txt
 
-# macOS
+# Secrets
+.env
+
+# macOS system files
 .DS_Store
 
-# Streamlit / local
-.env
+# Temporary or generated files
 temp_*.wav
-
-# Chroma/other DBs
-chroma_db/
+*.log
